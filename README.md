@@ -41,7 +41,7 @@
 - Plotted predicted closing prices aganist actual closing prices using MatPlotLib.
 ![Image](NonPCAModel.png)
 
-![Image](PCAModel .png)
+![Image](PCAModel.png)
 
 ## Predicted Stock Price
 ---
