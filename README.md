@@ -20,7 +20,7 @@
 - Created SMA (Simple Moving Average), EMA (Exponential Moving Average), RSI (Relative Strength Index) and MACD (Moving Average Convergence Divergence).
 - Removed NaNs.
 
-![Image](GOOG Historial DataFrame.png)
+![Image](GOOGHistorial.png)
 
 ## Principal Component Analysis 
 ---
@@ -28,7 +28,7 @@
 - Fit SkLearn's PCA to training data. 
 - Converted and sorted Principal Components in Pandas DataFrame. 
 
-![Image](Principal Components.png)
+![Image](PrincipalComponent.png)
 
 ## Model Building/Performance 
 ---
@@ -39,17 +39,16 @@
 - Used RandomSearch from Keras to optimize 'val_loss' based on 'input_units' and 'dropout'
 - Used Non PCA feature selected model to predict prices in test data as it had a lower validation loss score. 
 - Plotted predicted closing prices aganist actual closing prices using MatPlotLib.
-![Image](Non-PCA Model.png)
+![Image](NonPCAModel.png)
 
-![Image](PCA Model .png)
+![Image](PCAModel .png)
 
 ## Predicted Stock Price
 ---
 - Implemented function that takes date as input and returns predicted closing price. 
-- 
 ![Image](predictor.png)
 
-![Image](predicted price.png)
+![Image](predictedprice.png)
  
 
 
