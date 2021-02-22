@@ -19,6 +19,7 @@
 - Converted response into list and Pandas DataFrame.
 - Created SMA (Simple Moving Average), EMA (Exponential Moving Average), RSI (Relative Strength Index) and MACD (Moving Average Convergence Divergence).
 - Removed NaNs.
+
 ![Image](GOOG Historial DataFrame.png)
 
 ## Principal Component Analysis 
@@ -26,6 +27,7 @@
 - Implemented Principal Component Analysis to attempt feature selection.
 - Fit SkLearn's PCA to training data. 
 - Converted and sorted Principal Components in Pandas DataFrame. 
+
 ![Image](Principal Components.png)
 
 ## Model Building/Performance 
@@ -38,12 +40,15 @@
 - Used Non PCA feature selected model to predict prices in test data as it had a lower validation loss score. 
 - Plotted predicted closing prices aganist actual closing prices using MatPlotLib.
 ![Image](Non-PCA Model.png)
+
 ![Image](PCA Model .png)
 
 ## Predicted Stock Price
 ---
 - Implemented function that takes date as input and returns predicted closing price. 
+- 
 ![Image](predictor.png)
+
 ![Image](predicted price.png)
  
 
